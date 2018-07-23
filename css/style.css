@@ -150,8 +150,8 @@ hr {
 /* --ABOUT SECTION STYLING-- */
 #about-section {
   background-color:gainsboro;
-  font-family: 'Roboto', sans-serif;
-  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
   margin-top: -20px;
 /*   This screws up the view when you link here, try to fix this properly */
 }
@@ -174,7 +174,7 @@ hr {
 }
 
 .about-p strong {
-  font-size: 1.2em;
+  font-size: 2.0em;
 }
 
 .about-p {

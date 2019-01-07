@@ -70,7 +70,7 @@ h2 {
 
 /*  --HEADER STYLING-- */
 header {
-  background: url('https://res.cloudinary.com/bhantsi/image/upload/v1546784300/bhfbstart.jpg');
+  background: url('https://res.cloudinary.com/bhantsi/image/upload/v1546885168/bhfbstart.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -79,7 +79,7 @@ header {
 .header-content {
   text-align: center;
   padding-top: 30vh;
-  color: white;
+  color: green;
 }
 .animated {
   -moz-animation-delay: 1s;

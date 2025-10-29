@@ -1,5 +1,6 @@
 {
     "name": "GitHub README Profile",
+    "homepage": "https://bhantsi.github.io/",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -49,12 +50,16 @@
     "devDependencies": {
         "@types/node": "^20.10.0",
         "@vitejs/plugin-react-swc": "^3.10.2",
+        "gh-pages": "^6.3.0",
         "typescript": "^5.3.3",
         "vite": "6.3.5"
     },
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "preview": "vite preview",
+        "predeploy": "pnpm run build",
+        "deploy": "gh-pages -d build"
     },
     "packageManager": "pnpm@10.19.0"
 }

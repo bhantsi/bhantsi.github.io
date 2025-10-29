@@ -7,8 +7,8 @@ interface CommandLineProps {
   delay?: number;
 }
 
-export function CommandLine({ 
-  username = "user", 
+export function CommandLine({
+  username = "user",
   host = "github",
   command,
   delay = 0
@@ -23,14 +23,14 @@ export function CommandLine({
   if (!visible) return null;
 
   return (
-    <div className="flex items-start gap-1 animate-in fade-in duration-300">
+    <div className="flex items-start gap-0.5 sm:gap-1 animate-in fade-in duration-300 text-xs sm:text-sm overflow-x-auto">
       <span className="text-[#ff6b6b] select-none flex-shrink-0">
         {username}@{host}
       </span>
       <span className="text-[#4ecdc4] select-none flex-shrink-0">:</span>
       <span className="text-[#95e1d3] select-none flex-shrink-0">~</span>
-      <span className="text-white select-none flex-shrink-0 mr-2">$</span>
-      <span className="text-[#f7f7f7]">{command}</span>
+      <span className="text-white select-none flex-shrink-0 mr-1">$</span>
+      <span className="text-[#f7f7f7] break-words">{command}</span>
     </div>
   );
 }

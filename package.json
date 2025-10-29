@@ -1,5 +1,5 @@
 {
-    "name": "GitHub README Profile",
+    "name": "github-readme-profile",
     "homepage": "https://bhantsi.github.io/",
     "version": "0.1.0",
     "private": true,
@@ -49,6 +49,8 @@
     },
     "devDependencies": {
         "@types/node": "^20.10.0",
+        "@types/react": "^19.2.2",
+        "@types/react-dom": "^19.2.2",
         "@vitejs/plugin-react-swc": "^3.10.2",
         "gh-pages": "^6.3.0",
         "typescript": "^5.3.3",

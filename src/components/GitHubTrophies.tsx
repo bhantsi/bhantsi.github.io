@@ -3,10 +3,10 @@ import { CommandOutput } from './CommandOutput';
 
 export function GitHubTrophies() {
   return (
-    <div className="w-full max-w-5xl mx-auto mb-12">
-      <div className="bg-[#1e1e1e] rounded-lg p-6 border border-[#2d2d2d]">
-        <div className="font-mono text-sm mb-4">
-          <CommandLine 
+    <div className="w-full max-w-5xl mx-auto mb-6 sm:mb-8 md:mb-12 px-2 sm:px-0">
+      <div className="bg-[#1e1e1e] rounded-lg p-3 sm:p-4 md:p-6 border border-[#2d2d2d]">
+        <div className="font-mono text-xs sm:text-sm mb-2 sm:mb-4">
+          <CommandLine
             username="bala"
             host="osca"
             command="display-trophies --all"
@@ -17,11 +17,11 @@ export function GitHubTrophies() {
           </CommandOutput>
         </div>
 
-        <div className="flex justify-center">
-          <img 
-            src="https://github-profile-trophy.vercel.app/?username=bhantsi&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" 
+        <div className="flex justify-center overflow-x-auto">
+          <img
+            src="https://github-profile-trophy.vercel.app/?username=bhantsi&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=5&margin-h=5"
             alt="GitHub Trophies"
-            className="w-full"
+            className="w-full h-auto"
           />
         </div>
       </div>
